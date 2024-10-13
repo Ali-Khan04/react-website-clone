@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #20232a;
+  color: white;
+  position: relative;
+}
+
+.header .logo h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.links ul {
+  display: flex;
+  gap: 20px;
+}
+
+.links ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.header_buttons button {
+  background-color: #61dafb;
+  color: #20232a;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -9,21 +12,20 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   background-color: #222222;
-  height: 100vh;
   text-align: center;
   font-family: "Roboto Mono", monospace;
   font-size: 30px;
   color: white;
-  height: calc(100vh - 60px); /* Adjust based on your header's height */
-  margin-top: -40px; /* Move content closer to the header */
+  margin-top: -40px;
 }
 .buttons {
   display: flex;
   gap: 10px;
 }
-img {
+.react_img,
+.section_img {
   width: 550px;
   height: 300px;
 }
@@ -31,7 +33,7 @@ img {
   font-size: 50px;
 }
 p,
-img {
+.react_img {
   margin: 0;
   padding: 0;
   display: inline-block;
@@ -58,4 +60,36 @@ img {
 
 .button:active {
   filter: brightness(1);
+}
+.section2 {
+  background-color: #23272f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+.user_Interfaces {
+  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  top: 10%;
+}
+
+.user_Interfaces h1 {
+  font-size: 40px;
+}
+
+.user_Interfaces p {
+  font-size: 20px;
+}
+.sec2_img {
+  display: flex;
+}
+.section_img {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }

@@ -24,7 +24,12 @@ body {
   display: flex;
   gap: 10px;
 }
-.react_img,
+
+.react_img {
+  width: 100px;
+  height: 100px;
+  animation: rotate 5s linear infinite;
+}
 .section_img {
   width: 550px;
   height: 300px;
@@ -32,12 +37,22 @@ body {
 #title {
   font-size: 50px;
 }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 p,
 .react_img {
   margin: 0;
   padding: 0;
   display: inline-block;
 }
+
 .button {
   background: transparent;
   border-radius: 3px;
@@ -50,17 +65,18 @@ p,
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  transition: all 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out,
+    transform 200ms ease-in-out;
   cursor: pointer;
 }
-
 .button:hover {
-  filter: brightness(0.85);
+  background-color: #61dafb;
+  color: white;
+}
+.button:active {
+  transform: translateY(2px);
 }
 
-.button:active {
-  filter: brightness(1);
-}
 .section2 {
   background-color: #23272f;
   color: white;
@@ -92,4 +108,12 @@ p,
 .section_img {
   margin-top: 50px;
   margin-bottom: 100px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.section_img:hover {
+  transform: scale(1.1);
+}
+.section_img:active {
+  transform: scale(1.2);
 }

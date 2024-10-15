@@ -11,6 +11,7 @@
 .header .logo h1 {
   font-size: 2rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .links ul {
@@ -21,6 +22,10 @@
 .links ul li {
   list-style: none;
   cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.links ul li:hover {
+  color: #61dafb;
 }
 
 .header_buttons button {
@@ -31,4 +36,12 @@
   margin: 0 10px;
   border-radius: 5px;
   cursor: pointer;
+}
+.login:hover,
+.signup:hover {
+  opacity: 0.8;
+}
+.login:active,
+.signup:active {
+  opacity: 0.6;
 }

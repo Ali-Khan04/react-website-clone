@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import reactImg from "./images/react.jpg";
+import reactImg from "./images/react-1.png";
 import codeImg from "./images/code.png";
 import videoImg from "./images/video.png";
 import "./sections.css";

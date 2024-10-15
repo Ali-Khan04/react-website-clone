@@ -28,7 +28,14 @@ body {
 .react_img {
   width: 100px;
   height: 100px;
-  animation: rotate 5s linear infinite;
+  animation: rotate 3s linear infinite;
+  cursor: pointer;
+}
+.react_img:hover {
+  animation: rotate 1s linear infinite;
+}
+.react_img:active {
+  animation: pause;
 }
 .section_img {
   width: 550px;

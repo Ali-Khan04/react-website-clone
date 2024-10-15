@@ -16,7 +16,7 @@ const Header = () => {
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          transition: "background-image 1s ease",
+          transition: "background-image 1ms ease",
         }}
       >
         <h1

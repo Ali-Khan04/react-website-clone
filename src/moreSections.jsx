@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import codeSec3 from "./images/code2.png";
 import videoSec3 from "./images/video2.png";
 import "./moreSection.css";
+import "./sections.css";
 export default function Section3() {
   return (
     <div>

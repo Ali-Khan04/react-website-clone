@@ -6,6 +6,7 @@
   background-color: #20232a;
   color: white;
   position: relative;
+  z-index: 1;
 }
 
 .header .logo h1 {

@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #222222;
 }
 .section1,
 .section3 {
@@ -19,6 +20,7 @@ body {
   font-family: "Roboto Mono", monospace;
   font-size: 30px;
   color: white;
+  animation: gradientBackground 5s ease infinite;
 }
 .section1 {
   height: 60vh;
@@ -99,6 +101,7 @@ p,
   height: 100vh;
   text-align: center;
   position: relative;
+  animation: gradientBackground 5s ease infinite;
 }
 .user_Interfaces {
   font-family: "Roboto Mono", monospace;
@@ -122,9 +125,12 @@ p,
   cursor: pointer;
   transition: all 200ms ease-in-out;
 }
-.section_img:hover {
+.section_img:hover,
+.section3_img:hover {
   transform: scale(1.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
-.section_img:active {
+.section_img:active,
+.section3_img:active {
   transform: scale(1.2);
 }

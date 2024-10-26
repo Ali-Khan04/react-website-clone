@@ -95,10 +95,10 @@ p,
 
 .section2,
 .section4 {
-  background-color: #23272f;
-  color: white;
   display: flex;
   flex-direction: column;
+  background-color: #23272f;
+  color: white;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -107,6 +107,18 @@ p,
   padding-bottom: 200px;
   position: relative;
   animation: gradientBackground 5s ease infinite;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .user_Interfaces {
   font-family: "Roboto Mono", monospace;

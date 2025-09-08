@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./CSS/header.css";
-import reactLogo from "./images/react-1.png";
+import "../CSS/header.css";
+import reactLogo from "../images/react-1.png";
 
 const Header = () => {
   const [hover, setHover] = useState(false);

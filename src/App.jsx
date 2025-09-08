@@ -1,17 +1,17 @@
 import React from "react";
-import Section1 from "./Sections";
-import Header from "./header";
-import Section3 from "./moreSections";
+import FirstSection from "./components/FirstSections";
+import Header from "./components/header";
+import ThirdSecttion from "./components/ThirdSections";
 import "./CSS/global.css";
-import { Section4 } from "./section4";
+import FourthSection from "./components/FourthSection";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Section1 />
-      <Section3 />
-      <Section4 />
+      <FirstSection />
+      <ThirdSecttion />
+      <FourthSection />
     </div>
   );
 };

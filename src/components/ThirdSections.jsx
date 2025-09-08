@@ -1,11 +1,11 @@
 import React from "react";
-import codeSec3 from "./images/code2.png";
-import videoSec3 from "./images/video2.png";
-import SectionWithAnimation from "./animation";
-import "./CSS/moreSection.css";
-import "./CSS/sections.css";
+import codeSec3 from "../images/code2.png";
+import videoSec3 from "../images/video2.png";
+import SectionWithAnimation from "../animation";
+import "../CSS/moreSection.css";
+import "../CSS/sections.css";
 
-export default function Section3() {
+export default function ThirdSecttion() {
   return (
     <SectionWithAnimation className="section3">
       <div className="sec3_container">

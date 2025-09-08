@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import SectionWithAnimation from "./animation";
-import data from "./data";
-import "./CSS/Section4.css";
+import SectionWithAnimation from "../animation";
+import data from "../data";
+import "../CSS/Section4.css";
 
-export function Section4() {
+export default function FourthSection() {
   const [buttonData, setButtonData] = useState({
     title: "",
     description: "",
@@ -20,7 +20,6 @@ export function Section4() {
   return (
     <SectionWithAnimation className="section4">
       <h1 className="section-title">Learn About React Features</h1>{" "}
-      {/* Normal heading for the section */}
       <div className="sec4_buttons">
         <Buttons
           onClick={() =>

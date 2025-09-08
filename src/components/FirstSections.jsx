@@ -1,11 +1,11 @@
 import React from "react";
-import reactImg from "./images/react-1.png";
-import codeImg from "./images/code.png";
-import videoImg from "./images/video.png";
-import SectionWithAnimation from "./animation";
-import "./CSS/sections.css";
+import reactImg from "../images/react-1.png";
+import codeImg from "../images/code.png";
+import videoImg from "../images/video.png";
+import SectionWithAnimation from "../animation";
+import "../CSS/sections.css";
 
-export function Section1() {
+export function FirstSection() {
   return (
     <div>
       <SectionWithAnimation className="section1">
@@ -41,4 +41,4 @@ export function Section1() {
     </div>
   );
 }
-export default Section1; //Sections
+export default FirstSection; //Sections
